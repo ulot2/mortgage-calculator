@@ -13,17 +13,14 @@ export const Results = ({ results }) => {
           />
           <h1>Results shown here</h1>
           <p className="text-center text-[10px] text-[#e3f4fc] w-[80%] mt-[5px]">
-            Complete the form and click "calculate repayments" to see what your
-            monthly repayments would be.
+            {"Complete the form and click 'calculate repayments' to see what your monthly repayments would be."}
           </p>
         </div>
       ) : (
         <div className="p-[1.5rem] h-full w-full bg-[#122f3f] lg:rounded-r-[15px] lg:rounded-bl-[50px] text-white">
           <h1 className="text-[1.3rem] font-bold mb-[1rem]">Your results</h1>
           <p className="text-[#e3f4fc] text-[13px]">
-            Your results are shown below based on the information you provided.
-            To adjust the results, edit the form and click "calculate
-            repayments" again.
+            {"Your results are shown below based on the information you provided. To adjust the results, edit the form and click 'calculate repayments' again."}
           </p>
           <div className="border-solid border-t-[3px] border-[#d7da2f] rounded-[10px] bg-[#0e2431] mt-[1rem] p-[15px]">
             <p className="text-[#e3f4fc] text-[12px] mb-[8px]">
